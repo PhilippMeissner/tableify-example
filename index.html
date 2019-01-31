@@ -1,0 +1,262 @@
+<style>body {
+  font-family: arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+table {
+  font-size: 8pt;
+  border-top: black 1px solid;
+  border-right: black 1px solid;
+  /* border-spacing : 10px */
+  border-collapse: collapse;
+}
+
+td, th {
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-left: black 1px solid;
+  border-bottom: black 1px solid;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+th {
+  background-color: #aaaaaa;
+}
+
+td.number {
+  color: blue
+}
+
+td.boolean {
+  color: green;
+  font-style: italic;
+}
+
+td.date {
+  color: purple;
+}
+
+td.null:after {
+  color: gray;
+  font-style: italic;
+  content: null;
+}
+</style>
+<!-- Manually added content-->
+<h4>Created by running:</h4>
+<code>yarn install && cat example-data.json | tableify --style > index.html</code>
+<br>
+<br>
+<!-- Auto generated -->
+<table>
+  <tr>
+    <th class="array">results</th>
+    <td class="array">
+      <table>
+        <thead>
+        <tr>
+          <th class="string">gender</th>
+          <th class="object">name</th>
+          <th class="object">location</th>
+          <th class="string">email</th>
+          <th class="object">login</th>
+          <th class="object">dob</th>
+          <th class="object">registered</th>
+          <th class="string">phone</th>
+          <th class="string">cell</th>
+          <th class="object">id</th>
+          <th class="object">picture</th>
+          <th class="string">nat</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="string">male</td>
+          <td class="object">
+            <table>
+              <tr>
+                <th class="string">title</th>
+                <td class="string">mr</td>
+              </tr>
+              <tr>
+                <th class="string">first</th>
+                <td class="string">rolf</td>
+              </tr>
+              <tr>
+                <th class="string">last</th>
+                <td class="string">hegdal</td>
+              </tr>
+            </table>
+          </td>
+          <td class="object">
+            <table>
+              <tr>
+                <th class="string">street</th>
+                <td class="string">ljan terrasse 346</td>
+              </tr>
+              <tr>
+                <th class="string">city</th>
+                <td class="string">vear</td>
+              </tr>
+              <tr>
+                <th class="string">state</th>
+                <td class="string">rogaland</td>
+              </tr>
+              <tr>
+                <th class="string">postcode</th>
+                <td class="string">3095</td>
+              </tr>
+              <tr>
+                <th class="object">coordinates</th>
+                <td class="object">
+                  <table>
+                    <tr>
+                      <th class="string">latitude</th>
+                      <td class="string">54.8646</td>
+                    </tr>
+                    <tr>
+                      <th class="string">longitude</th>
+                      <td class="string">-97.3136</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <th class="object">timezone</th>
+                <td class="object">
+                  <table>
+                    <tr>
+                      <th class="string">offset</th>
+                      <td class="string">-10:00</td>
+                    </tr>
+                    <tr>
+                      <th class="string">description</th>
+                      <td class="string">Hawaii</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td class="string">rolf.hegdal@example.com</td>
+          <td class="object">
+            <table>
+              <tr>
+                <th class="string">uuid</th>
+                <td class="string">c4168eac-84b8-46ea-b735-c9da9bfb97fd</td>
+              </tr>
+              <tr>
+                <th class="string">username</th>
+                <td class="string">bluefrog786</td>
+              </tr>
+              <tr>
+                <th class="string">password</th>
+                <td class="string">ingrid</td>
+              </tr>
+              <tr>
+                <th class="string">salt</th>
+                <td class="string">GtRFz4NE</td>
+              </tr>
+              <tr>
+                <th class="string">md5</th>
+                <td class="string">5c581c5748fc8c35bd7f16eac9efbb55</td>
+              </tr>
+              <tr>
+                <th class="string">sha1</th>
+                <td class="string">c3feb8887abed9ec1561b9aa2c9f58de21d1d3d9</td>
+              </tr>
+              <tr>
+                <th class="string">sha256</th>
+                <td class="string">684c478a98b43f1ef1703b35b8bbf61b27dbc93d52acd515e141e97e04447712</td>
+              </tr>
+            </table>
+          </td>
+          <td class="object">
+            <table>
+              <tr>
+                <th class="string">date</th>
+                <td class="string">1975-11-12T06:34:44Z</td>
+              </tr>
+              <tr>
+                <th class="number">age</th>
+                <td class="number">42</td>
+              </tr>
+            </table>
+          </td>
+          <td class="object">
+            <table>
+              <tr>
+                <th class="string">date</th>
+                <td class="string">2015-11-04T22:09:36Z</td>
+              </tr>
+              <tr>
+                <th class="number">age</th>
+                <td class="number">2</td>
+              </tr>
+            </table>
+          </td>
+          <td class="string">66976498</td>
+          <td class="string">40652479</td>
+          <td class="object">
+            <table>
+              <tr>
+                <th class="string">name</th>
+                <td class="string">FN</td>
+              </tr>
+              <tr>
+                <th class="string">value</th>
+                <td class="string">12117533881</td>
+              </tr>
+            </table>
+          </td>
+          <td class="object">
+            <table>
+              <tr>
+                <th class="string">large</th>
+                <td class="string">https://randomuser.me/api/portraits/men/65.jpg</td>
+              </tr>
+              <tr>
+                <th class="string">medium</th>
+                <td class="string">https://randomuser.me/api/portraits/med/men/65.jpg</td>
+              </tr>
+              <tr>
+                <th class="string">thumbnail</th>
+                <td class="string">https://randomuser.me/api/portraits/thumb/men/65.jpg</td>
+              </tr>
+            </table>
+          </td>
+          <td class="string">NO</td>
+        </tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <th class="object">info</th>
+    <td class="object">
+      <table>
+        <tr>
+          <th class="string">seed</th>
+          <td class="string">2da87e9305069f1d</td>
+        </tr>
+        <tr>
+          <th class="number">results</th>
+          <td class="number">1</td>
+        </tr>
+        <tr>
+          <th class="number">page</th>
+          <td class="number">1</td>
+        </tr>
+        <tr>
+          <th class="string">version</th>
+          <td class="string">1.2</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
